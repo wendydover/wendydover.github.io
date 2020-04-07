@@ -9,4 +9,4 @@ a :hover {color:darkorange;}
 a :focus {color :darkorchid;}
 a :visited {color :fuchsia;}
 a :active {color :darkcyan;}
- a {text-decoration: none; font-size: 10pt; font-family: sans-serif; background-color: aqua} 
+ a {text-decoration: none; font-size: 10pt; color: darkcyan;} 

@@ -1,3 +1,12 @@
 h1  {
 color:#666699
 }
+footer {
+ font-size: 8pt;   
+}
+a :link {color: darkcyan;}
+a :hover {color:darkorange;}
+a :focus {color :darkorchid;}
+a :visited {color :fuchsia;}
+a :active {color :darkcyan;}
+ a {text-decoration: none; font-size: 10pt; font-family: sans-serif; background-color: aqua} 

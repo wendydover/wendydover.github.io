@@ -1,6 +1,26 @@
 h1  {
-color:#666699
+color:#666699; font-family: Arial; font-size: 32pt; 
 }
+h3  {
+    color: darkcyan; font-size: 24pt;
+}
+* {font-family: serif}
+p {
+    color:black; font-family: Times New Roman; font-size: 14pt;
+
+}
+li span {color:darkcyan}
+li span2 {color: darkmagenta}
+
+
+img {
+  float: left; margin-right: 2em;
+}
+
+main p.indent {text-indent: 2em;}
+
+
+
 footer {
  font-size: 8pt;   
 }

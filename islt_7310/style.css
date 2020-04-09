@@ -1,5 +1,5 @@
 h1  {
-color:#666699; font-family: Arial; font-size: 32pt; 
+color:#666699; font-family: Arial; font-size: 32pt; text-align: center; border-style: double; border-color: black; background-color: #f7e9f7;
 }
 h3  {
     color: darkcyan; font-size: 24pt;
@@ -9,6 +9,7 @@ p {
     color:black; font-family: Times New Roman; font-size: 14pt;
 
 }
+li {font-size: 14pt;}
 li span {color:darkcyan}
 li span2 {color: darkmagenta}
 
@@ -17,12 +18,13 @@ img {
   float: left; margin-right: 2em;
 }
 
+body {background-color: #f2f4f5}
 main p.indent {text-indent: 2em;}
 
+blockquote {font-size: 14pt;}
 
-
-footer {
- font-size: 8pt;   
+footer p {
+font-size: 10pt; border-top-style: double;  
 }
 a :link {color: darkcyan;}
 a :hover {color:darkorange;}

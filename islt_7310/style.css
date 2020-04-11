@@ -1,3 +1,25 @@
+       /*--
+
+*****************************************************************************
+
+Title:  Contact Page
+
+Use:  Creation of a Professional website for ISLT7310.
+
+Author:  Wendy Dover
+
+School/Term:  University of Missouri, Spring 2020
+
+Developed: April 4, 2020
+
+Tested:  April 11, 2020; Passed on Firefox and Chrome browsers.
+
+Updated April 11, 2020
+
+******************************************************************************
+*/
+         
+
 h1  {
 color:#666699; font-family: Arial; font-size: 32pt; text-align: center; border-style: double; border-color: black; background-color: #f7e9f7;
 }
@@ -12,20 +34,28 @@ p {
 li {font-size: 14pt;}
 li span {color:darkcyan}
 li span2 {color: darkmagenta}
+li span3 {font-style: italic;}
+
 
 
 img {
   float: left; margin-right: 2em;
 }
 
-body {background-color: #f2f4f5}
+body {background-color: #f2f4f5
+margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;}
 main p.indent {text-indent: 2em;}
 
 blockquote {font-size: 14pt;}
 
 footer p {
-font-size: 10pt; border-top-style: double;  
+font-size: 10pt; border-top-style: double; position: relative; bottom: 0 padding-bottom:5px;
 }
+
+
 a :link {color: darkcyan;}
 a :hover {color:darkorange;}
 a :focus {color :darkorchid;}

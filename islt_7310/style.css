@@ -66,9 +66,17 @@ p+p {
 
 blockquote {font-size: 14pt;}
 
-footer p {
-font-size: 10pt; border-top-style: double; position: relative; bottom: 0; padding-bottom:5px;
+
+footer     
+div {
+    background-image: url(images/watercolor.png)
+        background-repeat: none;
 }
+}
+footer p {
+font-size: 10pt; border-top-style: double; position: relative; bottom: 0; padding-bottom:5px; color: azure;
+  }
+
 
 
 a :link {color: darkcyan;}

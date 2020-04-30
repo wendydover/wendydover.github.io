@@ -19,6 +19,14 @@ Updated April 26, 2020
 ******************************************************************************
 */
 
+@font-face { 
+
+font-family: My Underwood; 
+src: url("myunderwood.ttf"); 
+
+}
+
+
 a:hover#menu-icon {
     background-color: #444;
     border-radius: 4px 4px 0 0;
@@ -64,7 +72,8 @@ p+p {
     text-indent: 2em;
 }
 
-blockquote {font-size: 14pt;}
+blockquote {font-size: 14pt;
+font-family: My Underwood, serif;}
 
 
 footer     
@@ -92,3 +101,24 @@ a :active {color :darkcyan;}
         height: auto;
     }
 }
+@media print {
+    * {
+        background-color: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+              
+    }
+  
+    h1 {
+        margin-bottom: 0;
+        border: none;
+        text-align: center;
+    }
+ .positions {
+        display: none;
+    }
+    .skills {
+        display: none;
+    }
+  }

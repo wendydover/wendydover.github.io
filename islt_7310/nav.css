@@ -90,3 +90,8 @@ nav ul li ul {
         margin: 0;
     }
 }
+@media print {
+    nav {
+        display: none;
+    }
+}

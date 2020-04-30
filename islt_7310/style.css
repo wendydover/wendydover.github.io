@@ -20,10 +20,8 @@ Updated April 26, 2020
 */
 
 @font-face { 
-
+src: url(myunderwood.ttf); 
 font-family: My Underwood; 
-src: url("myunderwood.ttf"); 
-
 }
 
 

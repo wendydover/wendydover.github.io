@@ -20,7 +20,7 @@ Updated April 26, 2020
 */
 
 @font-face { 
-src: url("MyUnderwood.ttf"); 
+src: url(MyUnderwood.ttf); 
 font-family: My Underwood; 
 }
 
@@ -76,10 +76,10 @@ font-family: My Underwood;}
 
 footer     
 div {
-    background-image: url(images/watercolor.png)
+    background-image: url(images/watercolor.png);
         background-repeat: none;
 }
-}
+
 footer p {
 font-size: 10pt; border-top-style: double; position: relative; bottom: 0; padding-bottom:5px; color: azure;
   }

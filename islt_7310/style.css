@@ -94,30 +94,7 @@ blockquote {font-size: 14pt;
 font-family: My Underwood;}
 
 
-.video-wrapper {
- margin-left: auto;
- margin-right: auto;
- left: 0;
- right: 0;
- width: 852px; /*Adjust Fixed Width*/
- max-width: 100%;
-}
-.video-container {
- position: relative;
- padding-bottom: 56.25%;
- padding-top: 0px;
- height: 0;
- margin: 1em auto;
-}
-.video-container iframe, 
-.video-container object, 
-.video-container embed {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
-}
+
 
 footer     
 div {

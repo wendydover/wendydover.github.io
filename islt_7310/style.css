@@ -70,6 +70,26 @@ p+p {
     text-indent: 2em;
 }
 
+#goal1 {
+   display: none;
+}
+#goal1:target {
+    display: block;
+}
+
+#goal2 {
+   display: none;
+}
+#goal2:target {
+    display: block;
+}
+#goal3 {
+   display: none;
+}
+#goal3:target {
+    display: block;
+}
+
 blockquote {font-size: 14pt;
 font-family: My Underwood;}
 
@@ -77,11 +97,19 @@ font-family: My Underwood;}
 footer     
 div {
     background-image: url(images/watercolor.png);
-        background-repeat: none;
+        background-repeat:repeat;
+
+   }
+li i {
+    font-size: 16px;
+        font-weight: bolder;
+}
+li:hover i {
+    font-size: 24px;
 }
 
 footer p {
-font-size: 10pt; border-top-style: double; position: relative; bottom: 0; padding-bottom:5px; color: black;
+font-size: 10pt; border-top-style: double; position: relative; bottom: 0; padding-bottom:5px; color: black; font-weight:700;
   }
 
 
@@ -105,6 +133,7 @@ a :active {color :darkcyan;}
         color: black !important;
         box-shadow: none !important;
         text-shadow: none !important;
+        margin: auto;
               
     }
   
@@ -112,6 +141,9 @@ a :active {color :darkcyan;}
         margin-bottom: 0;
         border: none;
         text-align: center;
+    }
+    h3 {
+        margin-bottom: 0;
     }
  .positions {
         display: none;

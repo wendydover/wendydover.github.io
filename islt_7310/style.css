@@ -12,9 +12,9 @@ School/Term:  University of Missouri, Spring 2020
 
 Developed: April 4, 2020
 
-Tested:  May 6, 2020; Passed on Firefox and Chrome regular and developer browsers.
+Tested:  May 9, 2020; Passed on Firefox and Chrome regular and developer browsers.
 
-Updated May 6, 2020
+Updated May 9, 2020
 
 ******************************************************************************
 */
@@ -70,22 +70,19 @@ p+p {
     text-indent: 2em;
 }
 
-#goal1 {
-   display: none;
-}
+
+
 #goal1:target {
     display: block;
 }
 
-#goal2 {
-   display: none;
-}
+
+
 #goal2:target {
     display: block;
 }
-#goal3 {
-   display: none;
-}
+
+
 #goal3:target {
     display: block;
 }
@@ -138,8 +135,11 @@ footer
 div {
     background-image: url(images/watercolor.png);
         background-repeat:repeat;
-
    }
+footer ul {
+    list-style-type: none;
+}
+
 li i {
     font-size: 16px;
         font-weight: bolder;
@@ -153,15 +153,22 @@ font-size: 10pt; border-top-style: double; position: relative; bottom: 0; paddin
   }
 
 
-
-a :link {color: darkcyan;}
+a :link {color: #10345a;}
 a :hover {color:darkorange;}
 a :focus {color :darkorchid;}
 a :visited {color :fuchsia;}
 a :active {color :darkcyan;}
- a {text-decoration: none; font-size: 10pt; color: darkcyan;} 
+ a {text-decoration: none; font-size: 10pt; color: #3333cc;} 
 
 @media only screen and (max-width: 640px) {
+    body {
+        width: 100%;
+       margin: 0;
+        padding: 0;
+    }
+    main {
+        width: 90%;
+    }
     img {
         max-width: 100%;
         height: auto;

@@ -23,12 +23,9 @@ Tested: May 9, 2020; Passed on Firefox and Chrome regular and developer browsers
 
 
 nav {
-    position: fixed;
     width: 100%;
        top: 0;
-    left: 0;
     z-index: 9999;
-    height: 50px;
 }
 nav ul {float:right; margin: 0; padding: 0;}
 nav ul li {

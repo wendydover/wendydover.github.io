@@ -1,0 +1,249 @@
+       /*--
+
+*****************************************************************************
+
+Title:  Style Sheet
+
+Use:  Creation of a Professional website for ISLT7310.
+
+Author:  Wendy Dover
+
+School/Term:  University of Missouri, Spring 2020
+
+Developed: April 4, 2020
+
+Tested:  May 13, 2020; Passed on Firefox and Chrome regular and developer browsers.
+
+Updated May 13, 2020
+
+******************************************************************************
+*/
+
+@font-face { 
+src: url(MyUnderwood.ttf); 
+font-family: My Underwood; 
+}
+
+
+a:hover#menu-icon {
+    background-color: #444;
+    border-radius: 4px 4px 0 0;
+}
+
+h1  {
+color:#666699; font-family: Arial; font-size: 2.67em; text-align: center; border-style: double; border-color: black; background-color: #f7e9f7; 
+ 
+        }
+h3  {
+    color: darkcyan; font-size: 24pt; 
+    font-size: 1.75em;
+}
+
+p {
+    color:black; font-family: Times New Roman; font-size: 14pt;
+
+}
+li {font-size: 14pt;}
+li span {color:darkcyan}
+li span2 {color: darkmagenta}
+
+img {
+  float: left; margin-right: 2em;
+}
+
+body {background-color: #f2f4f5;
+margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+    font-size: 1em;
+}
+main p.indent {text-indent: 2em;}
+
+    P.drop-cap:first-letter {
+    font-size: 2.25em;
+    float: left;
+    margin-top: -.15em;
+}
+
+p+p {
+    text-indent: 2em;
+}
+
+
+
+#goal1:target {
+    display: block;
+}
+
+
+
+#goal2:target {
+    display: block;
+}
+
+
+#goal3:target {
+    display: block;
+}
+
+table {
+    width: 1000px;
+  }
+th, tfoot {
+    text-align: left;
+    background-color: #f7e9f7;
+}
+table, th, td {
+    border: 2px solid #666699;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+tbody tr:nth-child(even){
+    background-color: #c8c8f7;
+    
+}
+
+blockquote {font-size: 14pt;
+font-family: My Underwood;}
+
+form {
+    width: 300px;
+ }
+input {
+    width: 100%;
+}
+textarea {
+    resize: vertical;
+    width: 300px;
+    max-height: 300px;
+}
+input, textarea {
+    outline: none;
+    border: 1px solid #666699;
+}
+label {
+    color: darkcyan; font-size: 24pt; 
+    font-size: 1.75em; 
+}
+
+
+
+footer     
+div {
+    background-image: url(images/watercolor.png);
+        background-repeat:repeat;
+   }
+footer ul {
+    list-style-type: none;
+}
+
+li i {
+    font-size: 16px;
+        font-weight: bolder;
+}
+li:hover i {
+    font-size: 24px;
+}
+
+footer p {
+font-size: 10pt; border-top-style: double; position: relative; bottom: 0; padding-bottom:5px; color: black; font-weight:700;
+  }
+
+
+a :link {color: #10345a;}
+a :hover {color:darkorange;}
+a :focus {color :darkorchid;}
+a :visited {color :fuchsia;}
+a :active {color :darkcyan;}
+ a {text-decoration: none; font-size: 10pt; color: #3333cc;} 
+
+@media only screen and (max-width: 640px) {
+    body {
+        width: 90%;
+       margin-left: 1em;
+        margin-right: 1em;
+        padding: 0;
+    }
+    main {
+        width: 90%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+     table, thead, tbody, th, td, tr {
+        display: block;
+        border: none;
+    }
+    thead tr {
+        position:absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr {
+        border: 1px solid #ccc;
+        width: 40%;
+    }
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 1px;
+        margin-left: 7px;
+            }
+    td:before {
+        position: absolute;
+        top: 12px;
+        left: 6px;
+        width: 200px;
+        padding-right: 10px;
+        white-space: nowrap;
+        margin-left: -150px;
+    }
+    td:nth-of-type(1) :before {content: "Year"}
+    td:nth-of-type(2) :before {content: "Committee"}
+    td:nth-of-type(3) :before {content: "Position"}
+
+    .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+}
+
+
+@media print {
+    * {
+        background-color: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        margin: auto;
+              
+    }
+  
+    h1 {
+        margin-bottom: 0;
+        border: none;
+        text-align: center;
+    }
+    h3 {
+        margin-bottom: 0;
+    }
+ .positions {
+        display: none;
+    }
+    .skills {
+        display: none;
+    }
+  }
